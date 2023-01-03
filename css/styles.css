@@ -1,0 +1,37 @@
+
+
+:root {
+    --accent-color-fon: #1E1E1E;
+    --text-color-header: #ffffff;
+    --basic-color-text: #DCCA87;
+}
+
+.body {
+    font-family: 'Cormorant Upright', serif;
+    color: var(--basic-color-text);
+    background-color: var(--accent-color-fon);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
