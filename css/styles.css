@@ -1,15 +1,17 @@
 
 
 :root {
-    --accent-color-fon: #1E1E1E;
+    --accent-color-fon: #0C0B08;
     --text-color-header: #ffffff;
     --basic-color-text: #DCCA87;
 }
 
+/*#body ---Body Styles--- */
+
 .body {
     font-family: 'Cormorant Upright', serif;
-    color: var(--basic-color-text);
     background-color: var(--accent-color-fon);
+    color: var(--basic-color-text);
 }
 
 h1,
@@ -35,3 +37,25 @@ img {
     height: auto;
 }
 
+/*#header ---Header Styles--- */
+
+.header-page {
+
+}
+
+.container {
+    width: 1680px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 122.5px;
+    padding-right: 122.5px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.29;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    color: var(--text-color-header);
+}
